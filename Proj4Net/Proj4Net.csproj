@@ -11,6 +11,8 @@
     <OutputPath>bin\$(Platform)\$(Configuration)\</OutputPath>
     <PackageId>Proj4NetStandard</PackageId>
     <PackageVersion>1.0.0</PackageVersion>
+    <RepositoryUrl>https://github.com/yottaltd/proj4netstandard</RepositoryUrl>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <Authors>DH</Authors>
     <Description>.NET Standard port of Proj4Net</Description>
     <PackageTags>proj4</PackageTags>
