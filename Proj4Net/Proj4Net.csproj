@@ -2,13 +2,18 @@
   <PropertyGroup>
     <ProjectGuid>{1E0E88AB-3FE5-4F8F-8CD7-0266C27B7EF4}</ProjectGuid>
     <TargetFramework>netstandard20</TargetFramework>
-    <AssemblyTitle>AlloyEngine</AssemblyTitle>
-    <Product>AlloyEngine</Product>
+    <AssemblyTitle>Proj4NetStandard</AssemblyTitle>
+    <Product>Proj4NetStandard</Product>
     <Copyright>Copyright ©  2018</Copyright>
     <NoWarn>1591</NoWarn>
     <Platforms>x64</Platforms>
     <LangVersion>latest</LangVersion>
     <OutputPath>bin\$(Platform)\$(Configuration)\</OutputPath>
+    <PackageId>Proj4NetStandard</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>DH</Authors>
+    <Description>.NET Standard port of Proj4Net</Description>
+    <PackageTags>proj4</PackageTags>
   </PropertyGroup>
   <ItemGroup>
     <None Remove="Resources\epsg" />
