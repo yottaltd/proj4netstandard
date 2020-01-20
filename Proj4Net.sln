@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proj4Net", "Proj4Net\Proj4Net.csproj", "{1E0E88AB-3FE5-4F8F-8CD7-0266C27B7EF4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proj4Net.Tests", "Proj4Net.Tests\Proj4Net.Tests.csproj", "{BF51F808-13A3-44E6-8F74-20686AFAEA76}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E0E88AB-3FE5-4F8F-8CD7-0266C27B7EF4}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{1E0E88AB-3FE5-4F8F-8CD7-0266C27B7EF4}.Debug|Any CPU.Build.0 = Debug|x64
+		{1E0E88AB-3FE5-4F8F-8CD7-0266C27B7EF4}.Release|Any CPU.ActiveCfg = Release|x64
+		{BF51F808-13A3-44E6-8F74-20686AFAEA76}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{BF51F808-13A3-44E6-8F74-20686AFAEA76}.Debug|Any CPU.Build.0 = Debug|x64
+		{BF51F808-13A3-44E6-8F74-20686AFAEA76}.Release|Any CPU.ActiveCfg = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {044E2473-C20E-41E4-B94C-3CC3AA3094D1}
+	EndGlobalSection
+EndGlobal

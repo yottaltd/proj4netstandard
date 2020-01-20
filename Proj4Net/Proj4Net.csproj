@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <ProjectGuid>{1E0E88AB-3FE5-4F8F-8CD7-0266C27B7EF4}</ProjectGuid>
+    <TargetFramework>netstandard20</TargetFramework>
+    <AssemblyTitle>AlloyEngine</AssemblyTitle>
+    <Product>AlloyEngine</Product>
+    <Copyright>Copyright ©  2018</Copyright>
+    <NoWarn>1591</NoWarn>
+    <Platforms>x64</Platforms>
+    <LangVersion>latest</LangVersion>
+    <OutputPath>bin\$(Platform)\$(Configuration)\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Resources\epsg" />
+    <None Remove="Resources\esri" />
+    <None Remove="Resources\nad27" />
+    <None Remove="Resources\nad83" />
+    <None Remove="Resources\world" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\epsg" />
+    <EmbeddedResource Include="Resources\esri" />
+    <EmbeddedResource Include="Resources\nad27" />
+    <EmbeddedResource Include="Resources\nad83" />
+    <EmbeddedResource Include="Resources\world" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="GeoAPI" Version="1.7.5" />
+  </ItemGroup>
+</Project>
